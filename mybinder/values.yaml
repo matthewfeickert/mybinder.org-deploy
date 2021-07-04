@@ -102,6 +102,10 @@ binderhub:
           # 2021-07-06 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#24-distributed-statistical-inf
           config:
             quota: 300
+        - pattern: ^alexander-held/PyHEP-2021-cabinetry.*
+          # 2021-07-06 PyHEP 2021 https://indico.cern.ch/event/1019958/contributions/4421868/
+          config:
+            quota: 300
       # - pattern: ^github-owner/github-repo-prefix.*
       #   # YYYY-MM-DD of workshop
       #   config:
