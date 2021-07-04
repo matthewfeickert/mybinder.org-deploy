@@ -132,6 +132,12 @@ binderhub:
           # 2021-07-07 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#25-introduing-natpy-a-simple-a
           config:
             quota: 300
+        # 2021-07-08
+        - pattern: ^irinaespejo/excursion.*
+          # https://github.com/jupyterhub/mybinder.org-deploy/issues/1947
+          # 20201-07-08 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#14-active-learning-for-level-s
+          config:
+            quota: 300
       # - pattern: ^github-owner/github-repo-prefix.*
       #   # YYYY-MM-DD of workshop
       #   config:
