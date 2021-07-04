@@ -116,6 +116,12 @@ binderhub:
           # 2021-07-06 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#21-pytorch-inferno
           config:
             quota: 300
+        # 2021-07-07
+        - pattern: ^zfit/PyHEP2021.*
+          # https://github.com/jupyterhub/mybinder.org-deploy/issues/1974
+          # 2021-07-07 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#10-zfit-introduction-minimizat
+          config:
+            quota: 300
       # - pattern: ^github-owner/github-repo-prefix.*
       #   # YYYY-MM-DD of workshop
       #   config:
