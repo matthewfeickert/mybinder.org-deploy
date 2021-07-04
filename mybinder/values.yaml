@@ -127,6 +127,11 @@ binderhub:
           # 2021-07-07 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#6-pybumphunter-a-model-agnosti
           config:
             quota: 300
+        - pattern: ^AndreScaffidi/Natpy_pyhep_2021.*
+          # https://github.com/jupyterhub/mybinder.org-deploy/issues/1970
+          # 2021-07-07 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#25-introduing-natpy-a-simple-a
+          config:
+            quota: 300
       # - pattern: ^github-owner/github-repo-prefix.*
       #   # YYYY-MM-DD of workshop
       #   config:
