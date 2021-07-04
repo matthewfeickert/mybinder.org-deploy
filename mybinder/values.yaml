@@ -133,6 +133,11 @@ binderhub:
           config:
             quota: 300
         # 2021-07-08
+        - pattern: ^dnicotra/pyhep2021-qml4jet.*
+          # https://github.com/jupyterhub/mybinder.org-deploy/issues/1971
+          # 20201-07-08 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#5-quantum-machine-learning-for
+          config:
+            quota: 300
         - pattern: ^irinaespejo/excursion.*
           # https://github.com/jupyterhub/mybinder.org-deploy/issues/1947
           # 20201-07-08 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#14-active-learning-for-level-s
