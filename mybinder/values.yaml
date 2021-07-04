@@ -111,6 +111,11 @@ binderhub:
           # 2021-07-06 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#58-uproot-and-awkward-array-tu
           config:
             quota: 300
+        - pattern: ^GilesStrong/talk_pyhep21_pytorch_inferno.*
+          # https://github.com/jupyterhub/mybinder.org-deploy/issues/1949
+          # 2021-07-06 PyHEP 2021 https://indico.cern.ch/event/1019958/timetable/#21-pytorch-inferno
+          config:
+            quota: 300
       # - pattern: ^github-owner/github-repo-prefix.*
       #   # YYYY-MM-DD of workshop
       #   config:
